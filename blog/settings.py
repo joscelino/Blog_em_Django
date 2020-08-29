@@ -35,9 +35,9 @@ INTERNAL_IPS = config('INTERNAL_IPS')
 # Application definition
 
 INSTALLED_APPS = [
-    'posts',
-    'categorias',
-    'comentarios',
+    'apps.posts',
+    'apps.categorias',
+    'apps.comentarios',
 
     'django.contrib.admin',
     'django.contrib.auth',

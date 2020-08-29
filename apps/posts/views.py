@@ -5,9 +5,9 @@ from django.views.generic.edit import UpdateView
 from django.db.models import Q, Count, Case, When
 from django.contrib import messages
 
-from posts.models import Post
-from comentarios.forms import FormComentario
-from comentarios.models import Comentario
+from apps.posts.models import Post
+from apps.comentarios.forms import FormComentario
+from apps.comentarios.models import Comentario
 
 
 class PostIndex(ListView):
